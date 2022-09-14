@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.filtre{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.label{
+  margin: 1px;
+}

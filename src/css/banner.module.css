@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 0px 6px 0px 6px;
+    margin-bottom: 6px;
+    align-items: center;
+    box-shadow: -1px 1px 3px #0c0a04;
+    background-color: #523E09;
+}
+.banner_right{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.titre{
+    text-decoration: none;
+    color: burlywood;
+    font-family: cursive;
+    margin: 0;
+}
+.text{
+    text-decoration: none;
+    font-size: 25px;
+    color: burlywood;
+    font-family: cursive;
+    margin-right: 10px;
+}
+.img{
+    border-radius: 50%;
+    max-width: 70px;
+    background-color: azure;
+}
