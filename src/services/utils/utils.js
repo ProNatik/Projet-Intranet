@@ -1,0 +1,3 @@
+export const containFirstname =  (collaborateur, value) => !value.length || collaborateur.firstname.toLowerCase().includes(value.toLowerCase());
+export const containCity =  (collaborateur, value) => !value.length || collaborateur.city.toLowerCase().includes(value.toLowerCase());
+export const containService =  (collaborateur, value) => !value.length || collaborateur.service.toLowerCase().includes(value.toLowerCase());
