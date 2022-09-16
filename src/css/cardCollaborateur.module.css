@@ -4,10 +4,16 @@
     border-radius: 5px;
     margin: 20px;
     padding: 5px;
+    background-color: bisque;
+    height: 140px;
+    max-width: 375px !important;
+    box-shadow: 1px 1px 4px #0c0a04;
+    align-items: center;
 }
 .photo{
     border-radius: 8px;
     max-width: 100px;
+    max-height: 110px;
     background-color: azure;
 }
 .description{
@@ -15,4 +21,11 @@
 }
 .p{
     margin: 0.5px;
+    font-family: 'Trebuchet MS';
+}
+.buttons{
+    display: flex;
+}
+.button{
+    margin-left: 3px;
 }

@@ -10,6 +10,7 @@
   margin-top: 5px;
   margin-bottom: 5px;
 }
-.label{
-  margin: 1px;
+.filtre_input{
+  margin: 5px;
+  max-width: 200px;
 }

@@ -16,18 +16,35 @@
 .titre{
     text-decoration: none;
     color: burlywood;
-    font-family: cursive;
+    font-family: 'Trebuchet MS';
     margin: 0;
 }
 .text{
     text-decoration: none;
     font-size: 25px;
     color: burlywood;
-    font-family: cursive;
+    font-family: 'Trebuchet MS';
+    margin: auto;
     margin-right: 10px;
+    transition: 0.5s linear;
+}
+.name{
+    color: burlywood;
+    font-family: 'Trebuchet MS';
 }
 .img{
     border-radius: 50%;
     max-width: 70px;
     background-color: azure;
+}
+.logout{
+    color: burlywood;
+    background: center;
+    border: none;
+    font-size: 31px;
+    max-height: 42px;
+    transition: 0.5s linear;
+}
+.button:hover{
+    opacity: 60%;
 }

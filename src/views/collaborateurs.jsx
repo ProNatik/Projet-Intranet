@@ -36,13 +36,10 @@ const collaborateurs = () => {
             
             <div className={styles.container}>
                 <form className={styles.filtre}>
-                    <label className={styles.label}>Nom : </label>
-                    <input name='firstname' placeholder='Nom' type="text" onChange={handleFilter}/>
-                    <label className={styles.label}>Ville : </label>
-                    <input name='city' placeholder='Ville' type="text" onChange={handleFilter}/>
-                    <label htmlFor="service"></label>
-                    <select name="service" id="service" onChange={handleFilter}>
-                        <option>veuillez choisir un service</option>
+                    <input className={`form-control ${styles.filtre_input}`} name='firstname' placeholder='Nom' type="text" onChange={handleFilter}/>
+                    <input className={`form-control ${styles.filtre_input}`} name='city' placeholder='Ville' type="text" onChange={handleFilter}/>
+                    <select className={`form-control ${styles.filtre_input}`} name="service" id="service" onChange={handleFilter}>
+                        <option>select a service</option>
                         <option>Marketing</option>
                         <option>Technique</option>
                         <option>Client</option>
