@@ -55,6 +55,7 @@ const updateSelectUser = () => {
             </div>
             {values &&
             <form className={`${styles.container}`}>
+                <label className={`${styles.label}`} htmlFor="">Gender</label>
                 <select className={`form-control ${styles.input}`} name='gender' id='gender' onChange={handleFilter}>
                     <option>gender</option>
                     <option>male</option>
@@ -62,19 +63,26 @@ const updateSelectUser = () => {
                 </select>
                 <label className={`${styles.label}`} htmlFor="">Firstname</label>
                 <input className={`form-control ${styles.input}`} name='firstname' placeholder='Firstname' type="text" onChange={handleFilter} value={values.firstname}/>
+                <label className={`${styles.label}`} htmlFor="">Lastname</label>
                 <input className={`form-control ${styles.input}`} name='lastname' placeholder='Lastname' type="text" onChange={handleFilter} value={values.lastname}/>
+                <label className={`${styles.label}`} htmlFor="">City</label>
                 <input className={`form-control ${styles.input}`} name='city' placeholder='City' type="text" onChange={handleFilter} value={values.city}/>
+                <label className={`${styles.label}`} htmlFor="">Country</label>
                 <input className={`form-control ${styles.input}`} name='country' placeholder='Country' type="text" onChange={handleFilter} value={values.country}/>
+                <label className={`${styles.label}`} htmlFor="">Email</label>
                 <input className={`form-control ${styles.input}`} name='email' placeholder='Email' type="text" onChange={handleFilter} value={values.email}/>
+                <label className={`${styles.label}`} htmlFor="">Phone</label>
                 <input className={`form-control ${styles.input}`} name='phone' placeholder='Phone' type="text" onChange={handleFilter} value={values.phone}/>
+                <label className={`${styles.label}`} htmlFor="">Birthdate</label>
                 <input className={`form-control ${styles.input}`} name='birthdate' placeholder='Birthdate' type="date" onChange={handleFilter} value={values.birthdate}/>
-                <label htmlFor="service"></label>
+                <label className={`${styles.label}`} htmlFor="">Service</label>
                 <select className={`form-control ${styles.input}`} name="service" id="service" onChange={handleFilter} value={values.service}>
                     <option>select a service</option>
                     <option>Marketing</option>
                     <option>Technique</option>
                     <option>Client</option>
                 </select>
+                <label className={`${styles.label}`} htmlFor="">Photo</label>
                 <input className={`form-control ${styles.input}`} name='photo' placeholder='Photo' type="text" onChange={handleFilter} value={values.photo}/>
                 <button className={`${styles.button}`} onClick={updateCollab}>Add</button>
             </form>
